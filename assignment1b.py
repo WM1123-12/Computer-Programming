@@ -14,3 +14,15 @@ print("Albert Einstein once said,\"life is like riding a bicycle, to keep your b
 famous_person = "Albert Einstein"
 message = famous_person, "once said, \"life is like riding a bicycle, to keep your balance, you must keep moving.\""
 print(message)
+name = "\t\n    John Cena  "
+print(name)
+name_clean = name.strip()
+print(name_clean)
+filename = "python_notes.txt"
+print(filename.removesuffix(".txt"))
+print(5+6)
+print(12-1)
+print(11*1)
+print(11/1)
+fav_number = "5"
+print("my favorite number is", fav_number)
