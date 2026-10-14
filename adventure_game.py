@@ -39,7 +39,11 @@ if occupation == "A":
             print("The leader of the squad yells to reteat, but you see a weak point on its neck that doesnt have scales")
             print("All the other knights are already retreating")
             print( )
-            decision_3 = input("A. retreat with the knights\nB. charge toward the dragon")
+            decision_3 = input("A. retreat with the knights\nB. charge toward the dragon\n: ")
+            if decision_3 == "B":
+                print("You charge toward the dragon, but are smacked by its tail and hit the side of the mountain and PERISH")
+            if decision_3 == "A":
+                print("")
 
 
 # red wizard path
@@ -85,4 +89,34 @@ if occupation == "B":
                 print("Your attack is quickly dismanteld in your weakened state, and without the support of the other wizards, you PERISH")
             if decision_3 == "A":
                 print( )
-                print()
+                print("You retreat with the rest of the wizards and mighty dwarves, you recieve word that the silver knights were retreating.")
+                print("The red wizards plan to regroup with the silver knights and join forces and focus on one front at a time")
+                print("After falling back deeper into the kingdom, the wizards and mighty dwarves set up a camp and await the knights.")
+                print("At night you all are about to sleep but you see something in the distance. five large figures with glowing purple staffs are approaching.")
+                print("You sound the alarm and all the forces awaken. you quickly attack.")
+                print( )
+                decision_4 = input("A. cast fireball spell\nB. cast thunder bolt spell\n: ")
+                if decision_4 == "A":
+                    print("The powerful warlocks deflect your fireball spell back at you and you explode and PERISH")
+                if decision_4 == "B":
+                    print("The warlocks didnt have the time ro react to your spell and you see them stumble")
+                    print("All the wizards begin casting fireball spells, if you too cast one it might overpower the warlocks.")
+                    print( )
+                    decision_4 = input("A. cast a protection spell onto the other forces\nB. cast fireball along with the other wizards\n: ")
+                    if decision_4 == "B":
+                        print( )
+                        print("The warlocks absorb the onslaught of fireball spells and deflect them back, you are vaporized and PERISH")
+                    if decision_4 == "A":
+                        print( )
+                        print("The warlocks deflect the fireballs back to the wizards, but your protection spell mitigates damage to them.")
+                        print("The warlocks are advancing and seem to be summoning some kind of creature in the air.")
+                        print("You then see that they are conveging the energy from their staffs to summon a glowing purple serpent in the air.")
+                        print("It begins cutting through the air right towards you. The red wizards begin summoning a creature of their own.")
+                        print("They sommon a large red falcon made of pure magical energy, it begins flying toward the serpent.")
+                        print( )
+                        decision_5 = input("A. add your own magical energy to the falcon to try to strengthen it\nB. command the mighty dwarves to flank the warlocks\n: ")
+                        if decision_5 == "A":
+                            print("You lakc experience compared to the other wizards and your addition of magic backfires and the falcon turns into a small magical pigeon.")
+                            print("Without the powerful falcon, the serpent ignores the magical pigeon and blasts a powerful purple beam, you PERISH")
+                        
+
